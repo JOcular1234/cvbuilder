@@ -42,18 +42,45 @@ export default function Education({ education, setEducation }) {
               onChange={(e) => handleChange(index, "degree", e.target.value)}
  />
             </p>
-
+{/* 
            <p className='start-end-date-div'>
-            <input
+            <div className='start-end-div'>
+              <p className='edu_date'>
+          <p><label htmlFor="">Start Date</label></p>
+          <p>
+            <input className='educations-input'
               type="month"
               value={edu.startDate}
               onChange={(e) => handleChange(index, "startDate", e.target.value)}
-            />
+            /></p>
+          </p>
+
+          <p className='edu_date'>
+            <p><label htmlFor="">Start Date</label></p>
+            <p><input className='educations-input2'
+              type="month"
+              value={edu.endDate}
+              onChange={(e) => handleChange(index, "endDate", e.target.value)}
+            /></p>
+            </p>
+              </div>
+        
+            </p> */}
+            <div className="company-input-div ">
+           <p> <label>Start Date:</label><br />
+            <input className='month-date'
+              type="month"
+              value={edu.startDate}
+              onChange={(e) => handleChange(index, "startDate", e.target.value)}
+            /></p>
+           <p className='exp-end-date'> <label>End Date:</label><br />
             <input
               type="month"
               value={edu.endDate}
               onChange={(e) => handleChange(index, "endDate", e.target.value)}
             /></p>
+            </div>
+            
             <SaveBtn value="Save" color="hsl(200, 100%, 50%)" type="button" onClick={() => setIsEditing(false)} />
               </div>
           </form>
