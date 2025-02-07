@@ -1,0 +1,512 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ body{
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Roboto;
+ }
+.main-container{
+    border: 1px solid;
+    margin:  0 auto;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    width: 98%;
+}
+
+.main-content {
+    flex: 0 0 40px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.cv-preview {
+    flex: 0 0 890px; 
+    margin-left: 20px;
+
+}
+
+.cv-preview {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9; 
+} 
+.txt1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ddd;
+}
+.first-input{
+    display: flex;
+    gap: 40px;
+}
+.first-input :nth-child(1){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: hsl(0, 0%, 92%);
+}
+.first-input :nth-child(2){
+    width: 250px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 92%);
+}
+.first-container-general{
+    background-color:  #1E293B;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.email-number-input{
+    display: flex;
+    gap: 40px;
+    
+}
+.email-number-input :nth-child(1){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: hsl(0, 0%, 92%);
+}
+.email-number-input :nth-child(2){
+    width: 250px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 92%);
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.textarea-div textarea{
+    width: 94%;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 92%);
+    resize: none;
+    height: 150px;
+    font-size: 1.2rem;
+
+}
+.education-input input{
+    width: 94%;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: hsl(0, 0%, 92%);
+}
+.fiel-study-div{
+    display: flex;
+    gap: 40px;
+}
+.fiel-study-div :nth-child(1){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: hsl(0, 0%, 92%);
+}
+.fiel-study-div :nth-child(2){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: hsl(0, 0%, 92%);
+}
+.qualification-div{
+    display: flex;
+    gap: 40px;
+}
+.qualification-div :nth-child(1){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 92%);
+}
+.qualification-div :nth-child(2){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: hsl(0, 0%, 92%);
+}
+.start-end-date-div{
+    display: flex;
+    gap: 40px;   
+}
+.start-end-date-div :nth-child(1){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: hsl(0, 0%, 92%);
+}
+.start-end-date-div :nth-child(2){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: hsl(0, 0%, 92%);
+} 
+input[type="month"] {
+    padding: 1px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 92%);
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    width: 3px;
+}
+
+input[type="month"]:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.company-input-div{
+    display: flex;
+    gap: 40px;
+}
+.experience-input :nth-child(1){
+    width: 94%;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: hsl(0, 0%, 92%);
+}
+
+.experience-position{
+    display: flex;
+    gap: 40px;
+}
+.experience-position :nth-child(1){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;   
+    background-color: hsl(0, 0%, 92%);
+}
+.experience-position :nth-child(2){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;   
+    background-color: hsl(0, 0%, 92%);
+}
+
+.experience-textarea{
+    display: flex;
+    gap: 40px;
+}
+.experience-textarea :nth-child(1){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 80px;   
+    border: 2px solid;
+    resize: none;
+    background-color: hsl(0, 0%, 92%);
+}
+.experience-textarea :nth-child(2){
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 80px;   
+    border: 2px solid;
+    resize: none;
+    background-color: hsl(0, 0%, 92%);
+}
+
+.company-input-div input{
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;   
+}
+.company-input-div label{
+    color: #ddd;
+}
+.add-experience{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color:#FFCC00;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.add-experience:hover{
+    background-color: hsl(48, 100%, 70%);
+}
+
+/* PREVIEW */
+.preview-name{
+    color: #1E293B;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.preview-details{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1rem;
+}
+.preview-detail{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1rem;   
+}
+.summary-page{
+    font-size: 1.65rem;
+    font-weight: 700;
+}
+.preview-details-sub{
+    text-align:justify;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+hr{
+    height: 2px;
+    background-color: #FFCC00;
+    border: none;
+    margin-top: -20px;
+}
+.company-name{
+    text-transform: uppercase;
+    font-size: 1.225rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: rgb(51 65 85);
+}
+.company-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company-date :nth-child(2){
+    font-size: 1.2rem;
+    color: rgb(51 65 85);
+}
+.company-name-date{
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: rgb(51 65 95);   
+}
+.responsiblity{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: rgb(51 65 95); 
+}
+.jobres{
+    text-align:justify;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: rgb(71 85 105);
+}
+.school-name{
+    font-size: 1.3rem;
+    /* line-height: 1rem; */
+    color: rgb(51 65 85);
+    text-transform: uppercase;   
+}
+.school-div{
+    display: flex;
+    justify-content: space-between;
+}
+.school-div :nth-child(2){
+    font-size: 1.2rem;
+    color: rgb(51 65 85);
+}
+.schoolLocations{
+    font-size: 1.1rem;
+    color: rgb(51 65 95);
+}
+.education_save{
+    border: 1px solid #fff;
+    color: #000;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width:799px) {
+    .container{
+        flex-direction: column;
+    }
+    .first-input :nth-child(1){
+        width: 300px;
+    }
+    .first-input :nth-child(2){
+        width: 303px;
+    }
+    .email-number-input :nth-child(1){
+        width: 300px;
+    }
+    .email-number-input :nth-child(2){
+        width: 303px;
+    }
+    .fiel-study-div :nth-child(1){
+        width: 300px;
+    }
+    .fiel-study-div :nth-child(2){
+        width: 302px;
+    }
+    .qualification-div :nth-child(1){
+        width: 300px;
+    }
+    .qualification-div :nth-child(2){
+        width: 302px;
+    }
+    .start-end-date-div :nth-child(1){
+        width: 300px;
+    }
+    .start-end-date-div :nth-child(2){
+        width: 302px;
+    }
+
+    .experience-position :nth-child(1){
+        width: 300px;
+    }
+    .experience-position :nth-child(2){
+        width: 302px;
+    }
+    .qualification-div :nth-child(1){
+        width: 300px;
+    }
+    .qualification-div :nth-child(2){
+        width: 302px;
+    }
+    .company-input-div input{
+    width: 303px;
+    }
+}
+@media (max-width:599px) {
+    body{
+        background-color: #FFCC00;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .first-input{
+        flex-direction: column;
+    }
+    .first-input :nth-child(1){
+        width: 300px;
+    }
+    .first-input :nth-child(2){
+        width: 303px;
+    }
+    .email-number-input {
+        flex-direction: column;
+    }
+    .email-number-input :nth-child(1){
+        width: 300px;
+    }
+    .email-number-input :nth-child(2){
+        width: 303px;
+    }
+    .fiel-study-div :nth-child(1){
+        width: 300px;
+    }
+    .fiel-study-div :nth-child(2){
+        width: 302px;
+    }
+    .qualification-div :nth-child(1){
+        width: 300px;
+    }
+    .qualification-div :nth-child(2){
+        width: 302px;
+    }
+    .start-end-date-div :nth-child(1){
+        width: 300px;
+    }
+    .start-end-date-div :nth-child(2){
+        width: 302px;
+    }
+    .experience-position {
+        flex-direction: column;
+    }
+    .company-input-div{
+        flex-direction: column;
+    }
+    .exp-end-date{
+        margin-top: -25px;
+    }
+    .experience-position :nth-child(1){
+        width: 300px;
+    }
+    .experience-position :nth-child(2){
+        width: 302px;
+    }
+    .qualification-div :nth-child(1){
+        width: 300px;
+    }
+    .qualification-div :nth-child(2){
+        width: 302px;
+    }
+    .company-input-div input{
+    width: 303px;
+    }
+    .fiel-study-div {
+        flex-direction: column;
+    }
+    .fiel-study-div {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .qualification-div {
+        flex-direction: column;
+    }
+    .start-end-date-div {
+        flex-direction: column;
+    }
+    .experience-input :nth-child(1) {
+        width: 92%;
+       
+    }
+    .education-input input {
+        width: 92%;
+    }
+}
